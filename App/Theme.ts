@@ -10,18 +10,20 @@ interface ColorTheme {
   red: string
   white: string
   transparent: string
+  black: string
 }
 
 export const Colors: ColorTheme = {
   mainColor: '#35823f',
   activeMain: '#003366B3',
-  textColor: '#fff',
-  backgroundColor: '#000',
+  textColor: '#000',
+  backgroundColor: '#ffffff',
   shadow: '#1c1c1e',
   white: '#ffffff',
   green: '#2d6e35',
   red: '#de3333',
   transparent: '#FFFFFF00',
+  black: '#000'
 }
 
 export const Buttons = StyleSheet.create({
@@ -33,7 +35,7 @@ export const Buttons = StyleSheet.create({
   primaryText: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: Colors.white,
+    color: Colors.black,
     textAlign: 'center',
   },
 })

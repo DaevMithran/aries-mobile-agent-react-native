@@ -33,8 +33,8 @@ const navigationTheme = {
     primary: mainColor,
     background: backgroundColor,
     card: mainColor,
-    text: 'white',
-    border: 'white',
+    text: 'black',
+    border: 'black',
     notification: 'white',
   },
 }

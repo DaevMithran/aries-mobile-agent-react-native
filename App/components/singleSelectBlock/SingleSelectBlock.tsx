@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { StyleSheet, TouchableOpacity } from 'react-native'
 import Icon from 'react-native-vector-icons/MaterialIcons'
 
-import { mainColor, shadow } from './../../globalStyles'
+import { backgroundColor, mainColor, shadow } from './../../globalStyles'
 
 import { Text } from 'components'
 
@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     width: '90%',
     borderRadius: 8,
-    backgroundColor: shadow,
+    backgroundColor: backgroundColor,
     marginTop: 8,
     flexDirection: 'row',
     paddingHorizontal: 12,

@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { StyleSheet, TouchableOpacity, View } from 'react-native'
 import Icon from 'react-native-vector-icons/MaterialIcons'
 
-import { mainColor, shadow } from '../globalStyles'
+import { backgroundColor, mainColor, shadow } from '../globalStyles'
 
 import { SafeAreaScrollView, Text } from 'components'
 
@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
   },
   rowGroup: {
     borderRadius: 8,
-    backgroundColor: shadow,
+    backgroundColor: backgroundColor,
   },
   row: {
     paddingVertical: 12,

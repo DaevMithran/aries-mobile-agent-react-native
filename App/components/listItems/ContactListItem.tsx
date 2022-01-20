@@ -4,7 +4,7 @@ import { DateTime } from 'luxon'
 import React from 'react'
 import { View, StyleSheet } from 'react-native'
 
-import { shadow, borderRadius } from '../../globalStyles'
+import { shadow, borderRadius, backgroundColor, textColor } from '../../globalStyles'
 import Text from '../texts/Text'
 import Title from '../texts/Title'
 
@@ -18,7 +18,9 @@ const styles = StyleSheet.create({
     marginHorizontal: 15,
     padding: 10,
     borderRadius,
-    backgroundColor: shadow,
+    backgroundColor: backgroundColor,
+    borderColor: textColor,
+    borderWidth: 0.1
   },
   date: {
     textAlign: 'right',

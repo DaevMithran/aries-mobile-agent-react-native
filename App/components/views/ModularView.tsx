@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, StyleSheet } from 'react-native'
 
-import { shadow, borderRadius } from '../../globalStyles'
+import { borderRadius, backgroundColor, mainColor, textColor } from '../../globalStyles'
 import Text from '../texts/Text'
 import Title from '../texts/Title'
 
@@ -14,10 +14,10 @@ interface Props {
 const styles = StyleSheet.create({
   container: {
     borderRadius,
-    backgroundColor: shadow,
+    backgroundColor: backgroundColor,
     width: '90%',
     margin: 20,
-    padding: 20,
+    padding: 20
   },
   content: {
     marginTop: 10,
